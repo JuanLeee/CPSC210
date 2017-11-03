@@ -1,0 +1,3 @@
+1. The error that was made was that the design of the test assumed that the column of the game was 10
+and tested the snake going out of bounds using that number. It should have used the column field so that
+it could accommodate different sizes of the game .
